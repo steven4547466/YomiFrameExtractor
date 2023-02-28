@@ -1,0 +1,13 @@
+{
+    "name": "frameextractor",
+    "friendly_name": "Yomi Frame Extractor",
+    "description": "Extracts frame data of characters to a csv file",
+    "author": "Steven4547466",
+    "version": "1.0.0",
+    "link": "",
+    "id": "144123",
+    "requires": [""],
+    "client_side": true,
+    "overwrites": false,
+    "priority": 0
+}
