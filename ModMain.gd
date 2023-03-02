@@ -159,4 +159,4 @@ func compare_hitboxes(a, b):
 	return a.start_tick < b.start_tick
 
 func get_knockback_angle(hitbox):
-	return rad2deg(atan2(-hitbox.knockback_y, hitbox.knockback_x))
+	return rad2deg(atan2(-hitbox.dir_y, hitbox.dir_x))
